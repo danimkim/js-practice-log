@@ -19,20 +19,19 @@ The function should return a string where each line represents a vocal estimatio
 Each estimation should be on a new line in the returned string.
  */
 
-// Test Failed
 function estimateElongation(organisms) {
   let estimation = '';
   organisms.forEach(({ name, factor }) => {
     if (estimation) {
       estimation += '\n';
     }
-    if (factor >= 0 && factor < 0.2) {
+    if (factor >= 0 && factor <= 0.2) {
       estimation += `Hmm, ${name} barely stretches.`;
-    } else if (factor >= 0.2 && factor < 0.4) {
+    } else if (factor > 0.2 && factor <= 0.4) {
       estimation += `Oh, ${name} has some elasticity.`;
-    } else if (factor >= 0.4 && factor < 0.6) {
+    } else if (factor > 0.4 && factor <= 0.6) {
       estimation += `Interesting! ${name} shows moderate stretchiness.`;
-    } else if (factor >= 0.6 && factor < 0.8) {
+    } else if (factor > 0.6 && factor <= 0.8) {
       estimation += `Wow! ${name} is quite elastic!`;
     } else {
       estimation += `Incredible! ${name} has remarkable elongation properties!`;
