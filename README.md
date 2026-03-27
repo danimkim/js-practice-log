@@ -1,3 +1,9 @@
-# Javascript 100
+# Javascript Coding Challenges
 
-자바스크립트 자료구조, 알고리즘 문제풀이
+Practice log for JavaScript coding challenges
+
+## Rules
+
+- Keep only one latest `solution.*` file per problem.
+- Track solution evolution with git commit history.
+- Use `notes.md` to record mistakes, edge cases, and improvements.
