@@ -19,20 +19,18 @@ The function should return a string where each line represents a vocal estimatio
 Each estimation should be on a new line in the returned string.
  */
 
+const rules = [
+  [0.2, (name) => `Hmm, ${name} barely stretches.`],
+  [0.4, (name) => `Oh, ${name} has some elasticity.`],
+  [0.6, (name) => `Interesting! ${name} shows moderate stretchiness.`],
+  [0.8, (name) => `Wow! ${name} is quite elastic!`],
+  [1.0, (name) => `Incredible! ${name} has remarkable elongation properties!`],
+];
+
 function estimateElongation(organisms) {
   return organisms
-    .forEach(({ name, factor }) => {
-      if (factor <= 0.2) {
-        return `Hmm, ${name} barely stretches.`;
-      } else if (factor <= 0.4) {
-        return `Oh, ${name} has some elasticity.`;
-      } else if (factor <= 0.6) {
-        return `Interesting! ${name} shows moderate stretchiness.`;
-      } else if (factor <= 0.8) {
-        return `Wow! ${name} is quite elastic!`;
-      } else {
-        return `Incredible! ${name} has remarkable elongation properties!`;
-      }
+    .map(({ name, factor }) => {
+      return rules.find(([limit]) => factor <= limit)[1](name);
     })
     .join('\n');
 }
