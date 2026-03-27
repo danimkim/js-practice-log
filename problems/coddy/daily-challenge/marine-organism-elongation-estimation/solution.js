@@ -22,13 +22,13 @@ Each estimation should be on a new line in the returned string.
 function estimateElongation(organisms) {
   return organisms
     .forEach(({ name, factor }) => {
-      if (factor >= 0 && factor <= 0.2) {
+      if (factor <= 0.2) {
         return `Hmm, ${name} barely stretches.`;
-      } else if (factor > 0.2 && factor <= 0.4) {
+      } else if (factor <= 0.4) {
         return `Oh, ${name} has some elasticity.`;
-      } else if (factor > 0.4 && factor <= 0.6) {
+      } else if (factor <= 0.6) {
         return `Interesting! ${name} shows moderate stretchiness.`;
-      } else if (factor > 0.6 && factor <= 0.8) {
+      } else if (factor <= 0.8) {
         return `Wow! ${name} is quite elastic!`;
       } else {
         return `Incredible! ${name} has remarkable elongation properties!`;
