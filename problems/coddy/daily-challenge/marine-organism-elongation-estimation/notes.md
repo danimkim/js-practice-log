@@ -15,8 +15,6 @@
 - Time: O()
 - Space: O()
 
-## Takeaway
-
 ## Takeaways
 
 - Boundary values must be handled carefully to avoid misclassification between ranges
