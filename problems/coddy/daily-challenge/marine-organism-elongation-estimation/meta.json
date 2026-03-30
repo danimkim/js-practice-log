@@ -1,10 +1,10 @@
 {
   "platform": "coddy",
   "problemId": "001",
-  "title": "Legacy Problem 001",
+  "title": "Marine Organism Elongation Estimation",
   "url": "",
   "difficulty": "easy",
-  "tags": [],
+  "tags": ["array", "loop"],
   "status": "solved",
   "language": "javascript",
   "lastReviewedAt": "2026-03-27"
