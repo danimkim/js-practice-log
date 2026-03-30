@@ -1,0 +1,11 @@
+{
+  "platform": "coddy",
+  "problemId": "1000",
+  "title": "Garden Soil pH Analysis",
+  "url": "",
+  "difficulty": "easy",
+  "tags": ["array", "loop"],
+  "status": "solved",
+  "language": "javascript",
+  "lastReviewedAt": "2026-03-29"
+}
