@@ -1,10 +1,10 @@
 {
   "platform": "coddy",
   "problemId": "101",
-  "title": "for...of loop mastery challenge",
+  "title": "For...of loop",
   "url": "",
   "difficulty": "easy",
-  "tags": ["array", "loop"],
+  "tags": ["mastery-challenge", "array", "loop"],
   "status": "solved",
   "language": "javascript",
   "lastReviewedAt": "2026-03-28"

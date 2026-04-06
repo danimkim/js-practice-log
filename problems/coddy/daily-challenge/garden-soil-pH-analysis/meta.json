@@ -3,7 +3,7 @@
   "problemId": "1000",
   "title": "Garden Soil pH Analysis",
   "url": "",
-  "difficulty": "easy",
+  "difficulty": "medium",
   "tags": ["array", "loop"],
   "status": "solved",
   "language": "javascript",
