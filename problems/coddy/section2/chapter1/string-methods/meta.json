@@ -1,0 +1,11 @@
+{
+  "platform": "coddy",
+  "problemId": "101",
+  "title": "String methods",
+  "url": "",
+  "difficulty": "easy",
+  "tags": ["mastery-challenge", "string", "loop"],
+  "status": "solved",
+  "language": "javascript",
+  "lastReviewedAt": "2026-04-05"
+}
