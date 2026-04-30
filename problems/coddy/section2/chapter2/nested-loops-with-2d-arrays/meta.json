@@ -1,0 +1,11 @@
+{
+  "platform": "coddy",
+  "problemId": "1000",
+  "title": "Accessing 2D Array Elements",
+  "url": "https://www.acmicpc.net/problem/1000",
+  "difficulty": "easy",
+  "tags": ["mastery-challenge", "array"],
+  "status": "solved",
+  "language": "javascript",
+  "lastReviewedAt": "2026-04-30"
+}
