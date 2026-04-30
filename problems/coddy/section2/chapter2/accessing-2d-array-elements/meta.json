@@ -1,0 +1,11 @@
+{
+  "platform": "coddy",
+  "problemId": "1000",
+  "title": "",
+  "url": "https://www.acmicpc.net/problem/1000",
+  "difficulty": "easy",
+  "tags": ["array", "math"],
+  "status": "solved",
+  "language": "javascript",
+  "lastReviewedAt": "2026-04-30"
+}
