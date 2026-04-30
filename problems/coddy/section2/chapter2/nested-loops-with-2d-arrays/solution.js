@@ -1,8 +1,4 @@
 function findMaxInRows(matrix) {
-  let maxValues = [];
-  matrix.forEach((row) => {
-    maxValues.push(Math.max(...row));
-  });
-
-  return maxValues;
+  // add a guard clause for empty arrays
+  return matrix.map((row) => (row.length ? Math.max(...row) : null));
 }
