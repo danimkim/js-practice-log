@@ -1,0 +1,11 @@
+{
+  "platform": "coddy",
+  "problemId": "1000",
+  "title": "Community Proposal Finde",
+  "url": "",
+  "difficulty": "medium",
+  "tags": ["array", "loop"],
+  "status": "solved",
+  "language": "javascript",
+  "lastReviewedAt": "2026-04-07"
+}
