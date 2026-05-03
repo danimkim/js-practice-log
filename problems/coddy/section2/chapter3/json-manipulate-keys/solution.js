@@ -1,21 +1,13 @@
 function petShelterManager(shelterData, newData) {
   // Write code here
-  const KEYS = ['id', 'name', 'type', 'age', 'isVaccinated', 'adoptionsStatus'];
+  const KEYS = ['id', 'name', 'type', 'age', 'isVaccinated', 'adoptionStatus'];
 
-  // verification
-  // num of field -> 6 / check matchin field name
-
-  const newDataKeys = Object.keys(newData);
-
-  // check matching field names
-  KEYS.forEach((key) => {
+  // check if all fields exist
+  for (let key of KEYS) {
     if (!newData.hasOwnProperty(key)) {
       return shelterData;
     }
-  });
-
-  // check number of field
-  if (newDataKeys.length !== 6) return shelterData;
+  }
 
   shelterData.push(newData);
   return shelterData;
