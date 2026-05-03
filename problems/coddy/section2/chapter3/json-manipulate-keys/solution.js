@@ -3,13 +3,10 @@ function petShelterManager(shelterData, newData) {
   const KEYS = ['id', 'name', 'type', 'age', 'isVaccinated', 'adoptionStatus'];
 
   // check if all fields exist
-  for (let key of KEYS) {
-    if (!newData.hasOwnProperty(key)) {
-      return shelterData;
-    }
-  }
+  const isValid = REQUIRED_KEYS.every((key) => key in newData);
 
-  shelterData.push(newData);
-  return shelterData;
+  if (!isValid) return shelterData;
+
+  return [...shelterData, newData]; // maintain immutability
 }
 // Do not write anything outside function
