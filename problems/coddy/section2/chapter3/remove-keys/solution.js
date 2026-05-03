@@ -1,12 +1,9 @@
 function filterObject(obj, keysToKeep) {
-  let newObj = {};
-
-  for (let key of keysToKeep) {
+  return keysToKeep.reduce((acc, key) => {
     if (obj.hasOwnProperty(key)) {
-      newObj[key] = obj[key];
+      acc[key] = obj[key];
     }
-  }
-
-  return newObj;
+    return acc;
+  }, {});
 }
 // Do not modify code outside the function
