@@ -2,7 +2,7 @@
 
 ## First attempt issues
 
-[first attempt code (b7aeeebe)](b7aeeebe4a68a37c7ee59a99d7b22b65d02fc0f7)
+[first attempt code (b7aeeebe)](https://github.com/danimkim/js-practice-log/blob/b7aeeebe4a68a37c7ee59a99d7b22b65d02fc0f7/problems/coddy/section2/chapter3/json-manipulate-keys/solution.js)
 
 ### What I got wrong
 
