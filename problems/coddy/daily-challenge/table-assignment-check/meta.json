@@ -1,0 +1,11 @@
+{
+  "platform": "coddy",
+  "problemId": "1000",
+  "title": "Table Assignment Check",
+  "url": "",
+  "difficulty": "easy",
+  "tags": ["array", "loop"],
+  "status": "solved",
+  "language": "javascript",
+  "lastReviewedAt": "2026-04-15"
+}
