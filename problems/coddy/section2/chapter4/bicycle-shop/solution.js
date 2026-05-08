@@ -1,14 +1,15 @@
 function updateBikeInventory(inventoryStr) {
   // Write code here
-  const parsedObj = JSON.parse(inventoryStr);
-  parsedObj.bikes = parsedObj.bikes.map((bike) => {
+  const inventory = JSON.parse(inventoryStr);
+  inventory.bikes = inventory.bikes.map((bike) => {
     if (bike.quantity < 3) {
-      let newObj = JSON.parse(JSON.stringify(bike));
-      newObj.note = 'Restock needed';
-      return newObj;
+      return {
+        ...bike,
+        note: 'Restock needed',
+      };
     }
     return bike;
   });
-  return JSON.stringify(parsedObj);
+  return JSON.stringify(inventory);
 }
 // Don't write anything outside the function
