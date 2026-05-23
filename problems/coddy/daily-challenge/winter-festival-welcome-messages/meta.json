@@ -1,0 +1,11 @@
+{
+  "platform": "coddy",
+  "problemId": "1000",
+  "title": "Winter Festival Welcome Messages",
+  "url": "",
+  "difficulty": "easy",
+  "tags": ["string", "reverse-string"],
+  "status": "solved",
+  "language": "javascript",
+  "lastReviewedAt": "2026-04-10"
+}
