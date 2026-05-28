@@ -1,8 +1,8 @@
 {
   "platform": "coddy",
   "problemId": "1000",
-  "title": "Accessing 2D Array Elements",
-  "url": "https://www.acmicpc.net/problem/1000",
+  "title": "Accesing 2D Array Elements",
+  "url": "https://coddy.tech/journeys/javascript/logic_and_flow/accessing_2d_array_elements_mastery",
   "difficulty": "easy",
   "tags": ["mastery-challenge", "array"],
   "status": "solved",
